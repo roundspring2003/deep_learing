@@ -5,10 +5,10 @@ folder_path = 'C:/Users/User/Documents/¿ý­µ'
 
 file_list = os.listdir(folder_path)
 
-i = 100
+i = 199
 for old_name in file_list:
 
-    new_name = f"front{i}.wav"
+    new_name = f"up{i}.wav"
 
     old_path = os.path.join(folder_path, old_name)
     new_path = os.path.join(folder_path, new_name)
